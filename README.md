@@ -52,7 +52,7 @@ Questo progetto è un'applicazione Python che utilizza strumenti open-source per
 3. Segui le istruzioni sul terminale per specificare il file video di input.
 
 ### Risultato
-Un file video tradotto con sottotitoli sarà generato nella directory di output.
+Un file video tradotto con sottotitoli e audio tradotto sarà generato nella directory di output.
 
 ## Esempio di comando
 ```bash
