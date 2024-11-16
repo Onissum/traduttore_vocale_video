@@ -1,0 +1,13 @@
+numpy
+srt
+moviepy
+openai-whisper
+transformers
+pydub
+pyttsx3
+language-tool-python
+sqlite3
+hashlib
+json
+ffmpeg-python
+torch
