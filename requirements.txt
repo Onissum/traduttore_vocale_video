@@ -11,3 +11,4 @@ hashlib
 json
 ffmpeg-python
 torch
+sacremoses
