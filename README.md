@@ -64,6 +64,57 @@ python main.py --input input_video.mp4 --language it
 - `--language`: lingua target per la traduzione (es. `it` per italiano, `es` per spagnolo, ecc.).
 - `--speed`: regola la velocità di sintesi vocale (opzionale).
 
+
+## Traduttore Video Multiplo
+
+Lo script `traduttore_video_multiplo.py` permette di tradurre automaticamente più video presenti in una directory. Esegue diverse operazioni in modo completamente automatizzato:
+- **Estrazione dell'audio** dai video.
+- **Trascrizione dei dialoghi** utilizzando Whisper.
+- **Traduzione automatica** con MarianMT.
+- **Correzione grammaticale** tramite LanguageTool.
+- **Generazione dell'audio tradotto**.
+- **Creazione di sottotitoli sincronizzati**.
+- **Integrazione audio e sottotitoli nel video originale**.
+
+### Come Usarlo
+1. Posiziona i video da tradurre nella cartella `video_da_tradurre`.
+2. Esegui lo script con il seguente comando:
+   ```bash
+   python traduttore_video_multiplo.py
+   ```
+3. I video tradotti, con sottotitoli e audio sincronizzati, saranno salvati nella cartella `video_tradotti`.
+
+### Requisiti
+- **Python 3.8+**
+- Moduli richiesti:
+  - Whisper
+  - MarianMT
+  - MoviePy
+  - Pydub
+  - Pyttsx3
+  - LanguageTool-Python
+- Assicurati di installare tutte le dipendenze necessarie usando il comando:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Caratteristiche Tecniche
+- **Lingue Supportate:** Inglese -> Italiano (personalizzabile modificando lo script).
+- **Automazione Completa:** Supporta l'elaborazione in batch di più video.
+- **Facile da Integrare:** Può essere adattato per altri progetti di traduzione video.
+
+---
+
+### File Correlati
+- `traduttore_video_multiplo.py`: Script principale per la traduzione multipla.
+- `requirements.txt`: Elenco delle dipendenze necessarie.
+
+---
+
+### Contribuisci
+Se hai suggerimenti o vuoi migliorare lo script, sentiti libero di inviare una pull request o aprire un'issue su GitHub.
+
+
 ## Contributi
 Contributi, segnalazioni di bug e richieste di funzionalità sono benvenuti! Sentiti libero di aprire una [issue](https://github.com/Onissum/traduttore_vocale_video/issues) o un [pull request](https://github.com/Onissum/traduttore_vocale_video/pulls).
 
