@@ -65,6 +65,7 @@ python main.py --input input_video.mp4 --language it
 - `--speed`: regola la velocità di sintesi vocale (opzionale).
 
 
+
 ## Traduttore Video Multiplo
 
 Lo script `traduttore_video_multiplo.py` permette di tradurre automaticamente più video presenti in una directory. Esegue diverse operazioni in modo completamente automatizzato:
@@ -110,9 +111,6 @@ Lo script `traduttore_video_multiplo.py` permette di tradurre automaticamente pi
 - `requirements.txt`: Elenco delle dipendenze necessarie.
 
 ---
-
-### Contribuisci
-Se hai suggerimenti o vuoi migliorare lo script, sentiti libero di inviare una pull request o aprire un'issue su GitHub.
 
 
 ## Contributi
